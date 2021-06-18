@@ -241,7 +241,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 
 .main-page {
   padding: 40px;
@@ -251,18 +251,17 @@ export default {
   position: relative;
 }
 
-.criteria button {
+.criteria button, .option button {
   position: absolute;
   right: 0;
+  padding: 0;
+  height: 90%;
+  width: 20px;
+  border-radius: 0;
 }
 
 .option {
   position: relative;
-}
-
-.option button {
-  position: absolute;
-  right: 0;
 }
 
 .control {
@@ -270,7 +269,6 @@ export default {
 }
 
 .control button {
-  padding: 8px;
   margin-left: 10px;
 }
 
